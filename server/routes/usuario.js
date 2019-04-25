@@ -30,7 +30,7 @@ app.get('/usuario', (req, res) => {
             }
             // para comprobar en el campo google cuales son 'true'
             // Usuario.count({google:true}, (err, conteo) => {
-            Usuario.count({}, (err, conteo) => {
+            Usuario.countDocuments({}, (err, conteo) => {
 
                 res.json({
                     ok: true,
