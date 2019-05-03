@@ -39,3 +39,10 @@ urlDB = 'mongodb+srv://udemy-nodejs:4DlHBnaRpKisV1ke@cluster0-brep8.mongodb.net/
 // }
 
 process.env.URLDB = urlDB;
+
+
+/**Google Client ID
+ * 
+ */
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '147064048182-d1nlv7ifncr9bnmrl64578m6tnp9lajl.apps.googleusercontent.com';
